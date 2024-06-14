@@ -1,0 +1,20 @@
+/* General */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+header{
+  padding: 20px 0;
+  width: 100%;
+  text-align: center;
+  background-color: white;
+}
+header a {
+  text-decoration: none;
+  color: #931936;
+}
+
+
+
