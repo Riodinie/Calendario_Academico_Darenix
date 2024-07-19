@@ -1,11 +1,14 @@
 <?php
 
-  session_start();
+session_start();
+  
+if (isset($_SESSION['user_id'])) {
+  header("Location: calendario.php");
+}
+
   require 'database.php';
 
-  if (isset($_SESSION['user_id'])) {
-    header("Location: calendario.php");
-  }
+ 
 
   if (!empty($_POST['email']) && !empty($_POST['password'])) {
     $records = $conn->prepare('SELECT id,name, email, password FROM users WHERE email = :email');

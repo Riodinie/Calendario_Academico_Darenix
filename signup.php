@@ -1,5 +1,10 @@
 <?php
-
+  session_start();
+  
+  if (isset($_SESSION['user_id'])) {
+    header("Location: calendario.php");
+  }
+  
   require 'database.php';
 
   $message = '';

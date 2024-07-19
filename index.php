@@ -1,10 +1,9 @@
 <?php
-  session_start();
-
+session_start();
   
-  if (isset($_SESSION['user_id'])) {
-    header("Location: calendario.php");
-  }
+if (isset($_SESSION['user_id'])) {
+  header("Location: calendario.php");
+}
 
   require 'database.php';
 
@@ -36,7 +35,6 @@
 </head>
 
 <body class="body-color">
-<?php if(!empty($user)): header("Location: calendario.php"); ?>
     <nav class="navbar navbar-expand-lg bg-transparent">
         <div class="container">
             <img class="icon" src="img/fenix.png" height="50">
@@ -93,7 +91,5 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
-        <?php endif; ?>
 </body>
-
 </html>
