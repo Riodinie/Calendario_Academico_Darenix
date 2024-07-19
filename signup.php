@@ -147,9 +147,6 @@
     <link rel="shortcut icon" href="img/fenix.png" type="image/x-icon">
 </head>
 <body>
-    <?php if(!empty($message)): ?>
-    <p> <?= $message ?></p>
-  <?php endif; ?>
     <div class="row vh-100 g-0">
     <div class="col-lg-6">
         <div class="row align-items-center justify-content-center h-100 g-0 px-4 px-sm-0">
