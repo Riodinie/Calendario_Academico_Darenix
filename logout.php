@@ -5,5 +5,5 @@
 
   session_destroy();
 
-  header('Location: /IntroduccionPHP/Horario_Proyecto_A');
+  header('Location: login.php');
 ?>
