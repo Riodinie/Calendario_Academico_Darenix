@@ -28,11 +28,11 @@ de alarma que aún está en desarrollo.
 
     ```sql
     CREATE TABLE users (
-        id INT PRIMARY KEY AUTO_INCREMENT,
-        name VARCHAR(10),
-        email VARCHAR(50),
-        password VARCHAR(9),
-        pregunta VARCHAR(20)
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(255) COLLATE utf8mb4_general_ci NOT NULL,
+    email VARCHAR(255) COLLATE utf8mb4_general_ci UNIQUE NOT NULL,
+    password VARCHAR(255) COLLATE utf8mb4_general_ci NOT NULL,
+    pregunta VARCHAR(255) COLLATE utf8mb4_general_ci
     );
     ```
 
