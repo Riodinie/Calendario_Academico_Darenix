@@ -21,7 +21,7 @@ de alarma que aún está en desarrollo.
 1. Clona este repositorio en tu servidor web:
 
     ```bash
-    https://github.com/Riodinie/Calendario_Academico_Darenix.git
+    git clone https://github.com/Riodinie/Calendario_Academico_Darenix.git 
     ```
 
 2. Crea una base de datos en MySQL y ejecuta el siguiente código SQL para crear la tabla de usuarios:
