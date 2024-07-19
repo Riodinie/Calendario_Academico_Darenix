@@ -33,7 +33,7 @@ de alarma que aún está en desarrollo.
     email VARCHAR(30) NOT NULL,
     password VARCHAR(9) NOT NULL,
     pregunta VARCHAR(50) NOT NULL
-    );
+    ); 
     ```
 
 3. Configura tu servidor web para que apunte a la carpeta del proyecto.
